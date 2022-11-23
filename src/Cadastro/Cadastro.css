@@ -1,0 +1,135 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+form {
+    width: 25rem;
+}
+
+input, button {
+    padding: 10px;
+    width: -webkit-fill-available;
+}
+
+button[disabled]{
+    opacity: 0.5;
+}
+
+input{
+    border: none;
+    border-radius: 40px;
+    color: #000;
+    padding-left: 15px;
+
+}
+
+input::placeholder, .dtNasc::placeholder{
+    color: #d9d9d9;
+}
+
+button:active{
+    opacity: 0.8;
+}
+
+button {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.TextoCadastro {
+    color: #2466E7;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+
+.formFild{
+    margin-bottom: 2rem;
+
+}
+
+.outline {
+    width: 15rem;
+    height: 3rem;
+    background-color: #2466E7;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.error {
+    color: #fff;
+    background-color: red;
+    display: none;
+}
+
+.checkboxButton{
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: none;
+    position: absolute;
+}
+
+.formFild2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+.formFild3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    padding: 5px;
+    width: -webkit-fill-available;
+}
+
+.formFild3 a{
+    color: #2466E7
+}
+
+.dtNasc, .password{
+    width: 10.5rem
+}
+
+.formFild3 p{
+    margin-left: 1.5rem;
+}
