@@ -1,0 +1,57 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.Navbar {
+    height: 34px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #1561f6;
+    justify-content: space-between;
+    border-radius: 40px;
+    
+}
+
+.Navbar img {
+    max-height: 53px;
+    margin-top: 1px;
+}
+
+.Navbar .Pesquisa .input-pesquisa {
+    border-radius: 100px;
+    padding: 10px;
+    margin-left: 100px;
+    width: 400px;
+}
+
+.Navbar .Atalhos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Navbar .Atalhos .img-atalhos {
+    max-height: 23px;
+}
+
+.Navbar .Atalhos a {
+    margin-right: 6px;
+}
+
+.Navbar .Atalhos a:link,
+.Navbar .Atalhos a:visited {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Navbar .Atalhos a:hover,
+.Navbar .Atalhos a:focus {
+    color: #333;
+}
+
+.Navbar .Perfil .img-perfil {
+    max-height: 48px;
+    margin-top: 1px;
+}
