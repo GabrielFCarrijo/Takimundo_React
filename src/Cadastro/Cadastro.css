@@ -53,6 +53,7 @@ img{
 }
 
 .TextoCadastro {
+    text-align: center;
     color: #2466E7;
     font-style: normal;
     font-weight: bolder;
@@ -86,10 +87,18 @@ img{
 }
 
 .container{
+    width: 100%;
+    margin: 0;
+}
+
+.container-cadastro {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    flex-flow: column;
+    justify-content: center;
+    padding: 15px;
 }
 
 .error {
