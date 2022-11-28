@@ -1,8 +1,8 @@
-import Cadastro from "./Cadastro/Cadastro";
+import Main from "./Main/Main";
 
 function App() {
   return (
-    <Cadastro/>
+    <Main />
   )
 }
 
