@@ -1,5 +1,13 @@
 import React from "react";
 
+import Agenda from "../Components/Image/agenda2030.jpg";
+import Sustentavel from "../Components/Image/sustentavel.webp";
+import Logo from "../Components/Image/takimundo-logo.png";
+import Onu from "../Components/Image/onu.webp";
+import Cidade from "../Components/Image/bg_5.jpg";
+import Paises from "../Components/Image/bg_6.jpg";
+import Predio from "../Components/Image/bg_5.jpg";
+import Igualdade from "../Components/Image/igualdadegenero.jpg";
 
 function ColLeft() {
     return (
